@@ -1,7 +1,7 @@
-
 import { Title } from "@/app/components/title/Title";
 import type { Metadata } from "next";
 import { Section1 } from "./Section1";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "Kết quả tìm kiếm",
@@ -9,9 +9,6 @@ export const metadata: Metadata = {
 };
 
 export default function SearchResult() {
-
-  
-
   // const dataSongs = [
   //   {
   //     id: 1,
@@ -26,7 +23,9 @@ export default function SearchResult() {
         <Title text="Danh sách bài hát" />
 
         <div className="inner-songs pb-[150px] flex flex-col gap-[10px] justify-center">
-          <Section1 />
+          <Suspense>
+            <Section1 />
+          </Suspense>
         </div>
       </div>
     </>
