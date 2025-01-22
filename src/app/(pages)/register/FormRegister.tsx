@@ -2,7 +2,7 @@
 
 import { authFirebase, dbFireBase } from "@/app/firebaseConfig";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { push, ref, set } from "firebase/database";
+import { ref, set } from "firebase/database";
 import { useRouter } from "next/navigation";
 interface User {
   name: string,

@@ -1,10 +1,8 @@
 import { SongItem } from "@/app/components/songItem/SongItem";
-import { TopSongItem } from "@/app/components/songItem/TopSongItem";
 import { Title } from "@/app/components/title/Title";
 import { dbFireBase } from "@/app/firebaseConfig";
 import { onValue, ref } from "firebase/database";
 import type { Metadata } from "next";
-import { on } from "process";
 
 export const metadata: Metadata = {
   title: "Danh sách bài hát theo danh mục",

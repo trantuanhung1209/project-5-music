@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaPlay, FaRegHeart } from "react-icons/fa6";
+import { FaRegHeart } from "react-icons/fa6";
 import { ButtonPlay } from "../button/ButtonPlay";
 
 export const SongItem = (prop: { item: any }) => {

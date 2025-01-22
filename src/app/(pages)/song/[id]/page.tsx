@@ -1,7 +1,6 @@
 import { SongItem } from "@/app/components/songItem/SongItem";
 import { Title } from "@/app/components/title/Title";
 import { dbFireBase } from "@/app/firebaseConfig";
-import { on } from "events";
 import { onValue, ref } from "firebase/database";
 import type { Metadata } from "next";
 

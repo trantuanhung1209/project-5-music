@@ -3,7 +3,6 @@ import { Title } from "@/app/components/title/Title";
 import { dbFireBase } from "@/app/firebaseConfig";
 import { get, onValue, ref } from "firebase/database";
 import type { Metadata } from "next";
-import { useEffect, useState } from "react";
 
 export const metadata: Metadata = {
   title: "Chi tiết ca sĩ",

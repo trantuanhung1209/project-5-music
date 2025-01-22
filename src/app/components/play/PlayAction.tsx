@@ -4,7 +4,6 @@ import {
   FaStepBackward,
   FaPlay,
   FaStepForward,
-  FaVolumeUp,
 } from "react-icons/fa";
 import { FaPause } from "react-icons/fa6";
 
